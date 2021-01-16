@@ -21,6 +21,13 @@ body {
     float: left;
 }
 
+.col_third {
+    width: 33.33333%;
+    padding: 0 15px;
+    box-sizing: border-box;
+    float: left;
+}
+
 .title {
     width: 100%;
     text-align: center;
@@ -163,7 +170,7 @@ body {
     width: 100%;
     margin-top: 0px;
     padding-top: 50%;
-    background: url(./assets/img/slide/slide1.jpg) top center / cover no-repeat;
+    background: url(slide1.jpg) top center / cover no-repeat;
     position: relative;
 }
 
@@ -307,7 +314,6 @@ body {
 
 .submit_btn {
     display: inline-block;
-    float: left;
     padding: 10px 0;
     width: 20%;
     margin: 10px 1%;
@@ -323,6 +329,57 @@ body {
 #quer>input :hover {
     background-color: darkcyan;
     color: white;
+}
+
+#purchase_list .title_list {
+    margin: 50px 0;
+}
+
+.mem_list {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 50px;
+    display: inline-block;
+}
+
+.mem {
+    background-clip: content-box;
+    position: relative;
+    display: block;
+}
+
+.bg_mem img {
+    filter: brightness(0.5);
+    opacity: 0.8;
+    display: block;
+    width: 100%;
+    height: 400px;
+    box-shadow: 0 0 15px gray;
+    border-radius: 10%;
+}
+
+.text_mem {
+    display: block;
+    color: white;
+    text-align: center;
+    line-height: 1.6;
+    position: absolute;
+    top: 40%;
+    width: calc(100% - 30px);
+}
+
+.text_mem div:hover {
+    color: rgb(247, 89, 49);
+}
+
+.main_text {
+    font-family: 'Podkova', serif;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.sub_text {
+    font-size: 20px;
 }
 
 
